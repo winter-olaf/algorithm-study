@@ -7,17 +7,31 @@ def solution(bridge_length, weight, tlist):
 
     while tqueue:
         result += 1 # 1초가 지났음
-        print(tqueue) # 대기열 확인용
         tqueue.pop(0) # 1초마다 대기열을 당겨줌
     
         if tlist: # 건너야 할 트럭이 남아 있는 동안 반복
             if sum(tqueue) + tlist[-1] <= weight:
-                tqueue.insert(1,tlist.pop())
+                tqueue.append(tlist.pop())
             else:
                 tqueue.append(0)
     return result
 
-print(solution(	2, 10, [7, 4, 5, 6]))
+# pop으로 뒤집지 않았는데 30ms 빨랐다
+def solution(bridge_length, weight, tlist):
+    result = 0
+    tqueue = [0] * bridge_length  # 대기열 생성
+
+    while tqueue:
+        result += 1  # 1초가 지났음
+        tqueue.pop(0)  # 1초마다 대기열을 당겨줌
+        if tlist:  # 건너야 할 트럭이 남아 있는 동안 반복
+            if sum(tqueue) + tlist[0] <= weight:
+                tqueue.append(tlist.pop(0))
+            else:
+                tqueue.append(0)
+    return result
+
+print(solution(100	,100,	[10, 10, 10, 10, 10, 10, 10, 10, 10, 10]))
         
         
         
