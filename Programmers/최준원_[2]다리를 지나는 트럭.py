@@ -32,9 +32,3 @@ def solution(bridge_length, weight, tlist):
     return result
 
 print(solution(100	,100,	[10, 10, 10, 10, 10, 10, 10, 10, 10, 10]))
-        
-        
-        
-        
-        
-        
