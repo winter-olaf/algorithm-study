@@ -20,3 +20,12 @@
 - [Programmers]주식가격 : 이명환
 - [Programmers]가장 큰 수 : 이명환
 - sw마에스트로 모의테스트 2번문제 : 이명환/최준원
+
+#### 2020.03.29
+- [Programmers]기능개발
+- [Programmers]스킬트리
+- [Programmers]H-Index
+- [Programmers]프린터
+###### 못푼문제 추가
+- [Programmers]가장 큰 수
+- sw마에스트로 모의테스트 2번문제

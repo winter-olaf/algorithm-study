@@ -1,7 +1,6 @@
 # 15/100
 n = int(input())
 
-
 def solution(n):
     result = 0
     for x in range(1, n+1):
@@ -30,8 +29,6 @@ def solution(n):
                 count += count+1
     return result,xl
 
-print(solution(n))
-
 # 100/100 2중 for문
 
 def solution(n):
@@ -48,8 +45,6 @@ def solution(n):
     return result
 
 # 100/100 for + while
-
-
 def solution(n):
     result = 1  # 자기 자신을 계산한 뒤 시작
     for x in range(1, n//2+2):
