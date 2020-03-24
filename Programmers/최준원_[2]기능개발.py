@@ -76,8 +76,9 @@ def solution(prog,speed):
             ans.append(1)    
             break
         
-        # 드디어 찾았다
-        prog = list(map(add, prog, speed))
+        # for문으로 순차적으로 작업 진도를 나가면 앞의 작업이 100이 되었더라도 뒤의 작업을 진행하게 된다. 
+        # 따라서 add를 사용해 
+        prog = list(map(add,prog,speed))
 
         # while문의 중첩으로 한번에 배포할 수 있는 작업의 수를 계산해 준다
         while prog: 
