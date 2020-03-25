@@ -63,7 +63,9 @@ def solution(prog,speed):
     return ans
 
 # 100/100
-# for 문을 사용하면 더하기를 한 차례 완료할 때까지 기다려야 하리 때문에 오류가 자꾸 뜬다. 따라서 add를 이용해 한번의 loop에 모든 prog의 원소가 계산되도록 했다
+# for 문을 사용하면 더하기를 한 차례 완료할 때까지 기다려야 
+# 하기 때문에 오류가 자꾸 뜬다. 
+# 따라서 add를 이용해 한번의 loop에 모든 prog의 원소가 계산되도록 했다
 from operator import add
 def solution(prog,speed):
     ans = [] 
