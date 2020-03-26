@@ -1,6 +1,5 @@
 def solution(n):
     list_n = [i for i in range(1,n+1)]
-    result = 0
     cnt = 0
     while(True):
         result = 0
