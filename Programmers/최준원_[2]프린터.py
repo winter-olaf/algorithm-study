@@ -6,7 +6,7 @@ def solution(p,l):
     while True:
         # Index 기억을 위해서 enumerate를 사용
         for idx, pt in enumerate(p):
-            # max(p)를 만날 때까지 index와 pt를 하나씩 증가시키면서 비교하기
+            # max(p)를 만날 때까지 index와 pt를 하나씩 증가시킨다
             prior = tmp[cnt]
             # 같아졌을 때, 카운트를 하나씩 올리며 비교
             if pt == prior:
@@ -15,7 +15,7 @@ def solution(p,l):
                 # 인덱스가 같으면 return
                 if idx == l:
                     return ans
-        # return을 못만나면 다시 반복
+        # return을 못만나면 맨 처음으로 돌아가(idx = 0) 다시 반복.
         else:
             continue
 
