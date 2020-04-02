@@ -16,11 +16,11 @@
 
 ## 일정
 #### 2020.03.22
-- [Programmers]숫자의 표현 : 최준원
-- [Programmers]다리를 지나는 트럭 : 최준원
-- [Programmers]주식가격 : 이명환
-- [Programmers]가장 큰 수 : 이명환
-- sw마에스트로 모의테스트 2번문제 : 이명환/최준원
+- [Programmers]숫자의 표현
+- [Programmers]다리를 지나는 트럭
+- [Programmers]주식가격
+- [Programmers]가장 큰 수
+- sw마에스트로 모의테스트 2번문제
 
 #### 2020.03.29
 - [Programmers]기능개발
