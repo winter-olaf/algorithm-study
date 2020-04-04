@@ -25,7 +25,7 @@
 import operator
 
 def solution(progresses, speeds):
-    answer = []
+    ans = []
     while(True):
         temp = 0
         if progresses ==[]:
