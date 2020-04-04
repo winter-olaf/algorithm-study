@@ -15,8 +15,5 @@ def solution(p,l):
                 # 인덱스가 같으면 return
                 if idx == l:
                     return ans
-        # return을 못만나면 맨 처음으로 돌아가(idx = 0) 다시 반복.
-        else:
-            continue
 
 print(solution([2, 1, 3, 2],2))
