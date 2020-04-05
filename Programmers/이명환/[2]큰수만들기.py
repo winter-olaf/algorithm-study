@@ -5,6 +5,7 @@
 #     ans = []
 #     num_list = list(map(int, num))
 #     x = sorted(enumerate(num_list), key=operator.itemgetter(1),reverse = True)
+
 #     for i in x:
 #         if i[0] - k <= 0:
 #             idx,value = i
@@ -54,6 +55,7 @@
 #         answer += str(i)
 # 
 #     return answer
+
 def solution(number, k):
     # 1. 스택 생성
     st = []

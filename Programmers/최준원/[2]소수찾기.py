@@ -13,7 +13,7 @@ def isPrime(n):
         if n%i == 0:
             return False
     return True
-                
+
 
 def solution(num):
     result = 0
@@ -29,6 +29,7 @@ def solution(num):
 
     # 중복값 제거
     arr = set(arr)
+    
     for i in arr:
         if isPrime(i) == True:
             result += 1
