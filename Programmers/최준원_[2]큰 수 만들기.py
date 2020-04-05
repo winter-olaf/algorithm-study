@@ -38,7 +38,14 @@ def solution(num,k):
         res.append(val)
     #1 이 부분을 추가했다. k값만큼 뒤를 자름
     res = res[:-k] if k>0 else res
+    
+    # #2 #1을 지우고 이렇게만 써도 됨.
+    # if k>0:
+    #     res = res[:-k]
+    
+    # #3 else를 빼도 된다고 생각했는데 빼니까 런타임 에러가 뜸. Hmm..
+    # res = res[:-k] if k>0
+
     ans = ''.join(res)
     return ans
-
 print(solution('54321',2))
