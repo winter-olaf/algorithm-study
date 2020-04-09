@@ -1,5 +1,6 @@
 # Runtime ERR
 # 아마 재귀함수이기 때문에 시간이 오래 걸리는 것일 거임
+# 문제풀이 30초컷
 def fibo(n):
     if n == 2:
         return 1
