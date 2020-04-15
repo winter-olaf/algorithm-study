@@ -50,3 +50,11 @@
 - [Programmers]라면공장
 - [Programmers]올바른괄호
 - [Programmers]다음큰숫자
+
+#### 2020.04.19
+#### 문제 이전(자소서 관련 이슈로 좀 많음)
+- [Programmers]쇠막대기
+- [Programmers]카펫
+- [Programmers][2020카카오공채]괄호 변환
+- [Programmers]숫자야구
+- [Programmers]라면공장
