@@ -53,8 +53,11 @@
 
 #### 2020.04.19
 #### 문제 이전(자소서 관련 이슈로 좀 많음)
+- [Programmers]조이스틱
 - [Programmers]쇠막대기
-- [Programmers]카펫
 - [Programmers][2020카카오공채]괄호 변환
 - [Programmers]숫자야구
 - [Programmers]라면공장
+#### 새로운 문제
+- [Programmers] 최댓값과 최솟값
+- [Programmers] 최솟값 만들기
