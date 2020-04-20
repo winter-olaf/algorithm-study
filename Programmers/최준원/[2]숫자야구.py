@@ -37,6 +37,9 @@ def solution(baseball):
     # 그래서 아닌 경우를 싹 삭제해 보기로 함
     for numbers,strikes,balls in baseball:
         # 그래도 안되다가 cases가 아닌 cases[:]를 쓰니 됨. 무슨 차이인지..
+        # 아하! cases[:]로 가져오는건 slicing이기 때문에 원래 cases에 영향을 받지 않음! 그래서 온전히 모든 case를 가져올 수 있는 것!!
+        # cases로 하면 remove 할때마다 index가 한칸씩 땅겨져 버린다.
+        # ex) index 2에서 작업하다가 index 2를 지우고 for문의 처음으로 돌아가면 index3을 조사해야 하는데 index4를 조사하게 되어 index3을 건너뛰게 되는 것!!
         for case in cases[:]:
             if check_sb(str(numbers),case) != (strikes,balls):
                 cases.remove(case)
