@@ -36,11 +36,11 @@ def solution(baseball):
     '''
     # 그래서 아닌 경우를 싹 삭제해 보기로 함
     for numbers,strikes,balls in baseball:
-        # 그래도 안되다가 cases가 아닌 cases[:]를 쓰니 됨. 무슨 차이지?
+        # 그래도 안되다가 cases가 아닌 cases[:]를 쓰니 됨. 무슨 차이인지..
         for case in cases[:]:
-            if check_sb(str(numbers),case) == (strikes,balls):
-                able.append(case)
-    return able
+            if check_sb(str(numbers),case) != (strikes,balls):
+                cases.remove(case)
+    return len(cases)
 
 
 
