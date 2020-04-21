@@ -11,9 +11,9 @@ def solution(name):
             break
         left,right =(1,1)
         #m[idx-left] or m[idx-right]가 0이 아닌 횟수가 나올 떄 까지
-        while m[idx-left] <=0:
+        while m[idx-left] !=0:
             left +=1
-        while m[idx+right] <=0:
+        while m[idx+right] !=0:
             right +=1
         answer += left if left <right else right
         idx += -left if left <right else right
