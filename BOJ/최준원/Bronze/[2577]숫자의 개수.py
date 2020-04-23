@@ -1,3 +1,4 @@
+# numpy error in desktop
 import numpy as np
 import collections
 arr = []
