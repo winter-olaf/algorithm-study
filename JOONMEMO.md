@@ -24,3 +24,6 @@ Bronze : 11 sol
 - BOJ/최준원/Bronze/[2920]음계.py
 - BOJ/최준원/Bronze/[8958]OX퀴즈.py
 
+#### 2020.04.24
+Bronze : 
+- BOJ/최준원/Bronze/[2577]숫자의 개수.py
