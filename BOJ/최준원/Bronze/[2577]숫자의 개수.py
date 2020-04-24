@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # # 런타임 에러
 # import numpy as np
 # import collections
@@ -27,10 +26,6 @@
 # prod 연산이 시간을 오래 잡아먹는다고 판단, 간단한 for 문으로 선회
 # 예상이 맞는 듯.
 import sys
-=======
-# numpy error in desktop
-import numpy as np
->>>>>>> e0e2350eac048f70d5e8268866858e729cedaf5b
 import collections
 arr = []
 final = [0]*10
