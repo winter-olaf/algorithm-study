@@ -28,6 +28,8 @@ def solution(baseball):
     # str 형식의 list로 1~9까지의 모든 경우의 수 리스트인 cases 생성
     cases = list(''.join(x) for x in permutations([str(i) for i in range(1,10)],3))
     '''
+    # After study !! 왜 안되는지 알았다! cases를 계속 비교하게 되니까 그런 거야.
+    # 123, 1, 1을 통과한 case를 able에 넣은 뒤에는 able을 계산하면 된다!! case = check_sb(case)로 하면 됨
     # 주어진 예시 baseball의 원소마다
     for numbers,strikes,balls in baseball:
     # 모든 case를 비교하면서 같은 strikes와 balls를 가진 경우를 가져오려 했음 그런데 이렇게 하니깐 각 case를 모든 numbers와 비교하질 못함...

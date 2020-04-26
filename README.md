@@ -3,7 +3,7 @@
 최준원
 ## 알고리즘 스터디 :pencil:
 
- - 시간 : 매주 일요일 19:30 ~ 21:30
+ - 시간 : 매주 일요일 20:00 ~ 21:30
  - 장소 : (2020-03-17기준)코로나 이슈로 인해 보이스톡으로 진행 / 차후 장소 지정해서 오프라인으로 진행
  - 방식 :
 
@@ -11,10 +11,11 @@
  2. 통과한 답안은 각 폴더에 '{문제이름}' 형태의 파일로 commit & push
  3. 각 문제마다 담당자 1명씩 배치하여 문제 풀이(코드리뷰)를 발표 (발표는 1시간내)
  4. 문제풀이와 함께 각 문제의 토픽에 해당하는 알고리즘에 대한 간략한 설명
- 5. 쓰면서 설명해야 할 경우 화이트보드 이용 [클릭!:point_left:](https://witeboard.com/)
+ 5. 쓰면서 설명해야 할 경우 화이트보드 이용 [CLICK!:point_left:](https://witeboard.com/)
 
-#### 이모티콘 참조
-[링크](https://www.webfx.com/tools/emoji-cheat-sheet/)
+#### EMOJI REFERENCE
+[LINK](https://www.webfx.com/tools/emoji-cheat-sheet/)
+
 ## 일정:date:
 #### 2020.03.22
 - [Programmers]숫자의 표현
@@ -56,9 +57,19 @@
 #### 문제 이전(자소서 관련 이슈로 좀 많음)
 - [Programmers]조이스틱
 - [Programmers]쇠막대기
-- [Programmers][2020카카오공채]괄호 변환
+- [Programmers][2020 KAKAO BLIND]괄호 변환
 - [Programmers]숫자야구
 - [Programmers]라면공장
 #### 새로운 문제
-- [Programmers] 최댓값과 최솟값
-- [Programmers] 최솟값 만들기
+- [Programmers]최댓값과 최솟값
+- [Programmers]최솟값 만들기
+
+#### 2020.04.26
+- [Programmers][2020 KAKAO BLIND]문자열 압축
+- [Programmers][2020 KAKAO BLIND]괄호 변환
+- [Programmers]탑
+- [Programmers]더 맵게
+- [Programmers]전화번호 목록
+- [Programmers]위장
+- [Programmers]땅따먹기
+- [Programmers]구명보트
