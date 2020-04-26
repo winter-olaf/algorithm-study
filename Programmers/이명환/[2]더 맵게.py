@@ -18,9 +18,10 @@ def solution(scoville, K):
             temp = he_scoville[0] + he_scoville[1] * 2
         '''
         최준원 : 이렇게 고치면 테스트케이스 3,7 빼고 통과
+        if len(he_scoville) <= 1:
+            answer = -1
+            break
         if len(he_scoville) >= 2:
-            temp = he_scoville[0] + he_scoville[1]*2
-        else:
             temp = he_scoville[0] + he_scoville[1]*2
         '''
         heapq.heappop(he_scoville)
