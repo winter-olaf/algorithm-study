@@ -1,10 +1,6 @@
-from collections import Counter
-
-def solution(clothes):
-    each_possible = Counter([i for _, i in clothes])
-    all_possible = 1 
-    for key in each_possible:
-        all_possible *= (each_possible[key]+1)
-
-    answer = all_possible-1
-    return answer
+def solution(phone_book):
+    phone_book.sort()
+    for a in range(len(phone_book)-1):
+        if phone_book[a] in phone_book[a+1] :
+            return False
+    return True
