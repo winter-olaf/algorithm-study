@@ -22,3 +22,11 @@ def hopscotch(board, size):
             board[i][j] += max(temp)
     result = max(board[-1])
     return result
+
+# 맹화이 코드 깔끔하네
+def solution(land):
+    for i in range(1, len(land)):
+        for j in range(len(land[0])):
+            land[i][j] += max(land[i - 1][:j] + land[i - 1][j + 1:])
+    print(land[len(land)-1])
+    return max(land[len(land) - 1])
