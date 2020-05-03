@@ -29,7 +29,7 @@
 - [Programmers]스킬트리
 - [Programmers]H-Index
 - [Programmers]프린터
-###### 못푼문제 추가
+###### 못 푼 문제
 - [Programmers]가장 큰 수(둘다 풀지 못하고 해답을 확인함)
 - sw마에스트로 모의테스트 2번문제 - 나중을 기약(비슷한 문제가 나올 경우 설명 추가)
 
@@ -41,7 +41,7 @@
 - [Programmers]피보나치 수
 - [Programmers][2020카카오공채]괄호 변환
 
-#### 2020.04.06(풀지 못한 문제 추가)
+#### 2020.04.06 못 푼 문제
 - [Programmers]쇠막대기
 - [Programmers]카펫
 - [Programmers][2020카카오공채]괄호 변환
@@ -54,7 +54,7 @@
 - [Programmers]다음큰숫자
 
 #### 2020.04.19
-#### 문제 이전(자소서 관련 이슈로 좀 많음)
+#### 못 푼 문제(자소서 관련 이슈로 좀 많음)
 - [Programmers]조이스틱
 - [Programmers]쇠막대기
 - [Programmers][2020 KAKAO BLIND]괄호 변환
@@ -73,3 +73,9 @@
 - [Programmers]위장
 - [Programmers]땅따먹기
 - [Programmers]구명보트
+
+#### 2020.05.03
+맹화이 중간고사 기간 - 최준원 백준문제 랭크올리는 주간
+- [Programmers]네트워크
+#### 못 푼 문제
+- [Programmers][2020 KAKAO BLIND]문자열 압축

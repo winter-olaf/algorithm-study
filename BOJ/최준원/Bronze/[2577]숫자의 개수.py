@@ -40,3 +40,12 @@ for k, v in container.items():
     final[int(k)] += v
 for i in final:
     print(i)
+
+# 아주 간단한 방법
+a = 1
+for i in range(3):
+    a *= int(input())
+    n = str(a)
+
+for i in range(10):
+    print(n.count(str(i)))

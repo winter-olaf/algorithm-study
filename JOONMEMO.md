@@ -4,14 +4,14 @@
 - BOJ[1330]두 수 비교하기 : if condition의 one line return에 dictionary를 사용하는 방법
 #### 기록:date:
 #### 2020.04.21
-Bronze : 3 sol
+Bronze : 3
 - BOJ[13458]시험 감독
 - BOJ[1330]두 수 비교하기
 - BOJ[11654]아스키 코드
 - BOJ[10818]최소, 최대
 
 #### 2020.04.22
-Bronze : 11 sol
+Bronze : 11
 - BOJ/최준원/Bronze/[10950]A+B -3
 - BOJ/최준원/Bronze/[10951]A+B -4.py
 - BOJ/최준원/Bronze/[10952]A+B -5.py
@@ -25,5 +25,13 @@ Bronze : 11 sol
 - BOJ/최준원/Bronze/[8958]OX퀴즈.py
 
 #### 2020.04.24
-Bronze : 
+Bronze : 1
 - BOJ/최준원/Bronze/[2577]숫자의 개수.py
+
+#### 2020.04.26
+Bronze : 5
+- BOJ/최준원/Bronze/[10809]알파벳 찾기.py
+- BOJ/최준원/Bronze/[1157]단어 공부.py
+- BOJ/최준원/Bronze/[1546]평균.py
+- BOJ/최준원/Bronze/[2908]상수.py
+- BOJ/최준원/Bronze/[3052]나머지.py
