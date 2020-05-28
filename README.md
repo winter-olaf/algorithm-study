@@ -74,8 +74,10 @@
 - [Programmers]땅따먹기
 - [Programmers]구명보트
 
-#### 2020.05.03
-맹화이 중간고사 기간 - 최준원 백준문제 랭크올리는 주간
+#### 2020.05.10
+맹화이 중간고사 기간으로 한 주 건너뜀 - 최준원 백준문제 랭크올리는 주간
 - [Programmers]네트워크
+- [Programmers]멀쩡한 사각형
+- [Programmers]폰켓몬
 #### 못 푼 문제
 - [Programmers][2020 KAKAO BLIND]문자열 압축
