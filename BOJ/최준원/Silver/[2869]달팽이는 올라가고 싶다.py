@@ -25,6 +25,17 @@
 #        break
 
 # 아 이게 왜틀리지?
+# import sys
+# a,b,v=map(int,sys.stdin.readline().split())
+# print((v-a)//(a-b)+1)
+
+
+# 제발
 import sys
-a,b,v=map(int,sys.stdin.readline().split())
-print(int((v-a)//(a-b)+1))
+a,b,v = map(int, sys.stdin.readline().split())
+h = v-b # 올라야 하는 최종 높이(마지막날 안떨어짐)
+r = a-b # 하루에 올라가는 높이
+if h%r==0:
+    print(h//r)
+else:
+    print(h//r+1)
