@@ -6,3 +6,4 @@ for i in range(int(sys.stdin.readline().rstrip('\n'))):
     dic.append([x,li[1]])
 for x,y in sorted(dic, key=lambda x:x[0]):
     print(x,y)
+#20200606

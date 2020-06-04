@@ -17,3 +17,4 @@ for i in k:
                 break
 
 print(ans)
+#20200606
