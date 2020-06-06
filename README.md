@@ -18,6 +18,9 @@
 #### EMOJI REFERENCE
 [LINK](https://www.webfx.com/tools/emoji-cheat-sheet/)
 
+#### Baek Joon WorkBook
+[LINK](https://www.acmicpc.net/workbook/view/2418)
+
 ## 일정:date:
 #### 2020.03.22
 - [Programmers]숫자의 표현
@@ -100,3 +103,9 @@
 - [2609]최대공약수와 최소공배수
 - [10814]나이순 정렬
 - [1978]소수 찾기
+#### 2020.06.13
+- [1406]에디터
+- [1874]스택수열
+- [1966]프린터 큐
+- [5430]AC
+- [6603]로또
