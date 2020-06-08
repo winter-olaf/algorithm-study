@@ -15,5 +15,5 @@ for i in k:
                 break
             elif i% es_prime == 0:
                 break
-
 print(ans)
+#20200606

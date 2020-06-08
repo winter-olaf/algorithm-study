@@ -22,3 +22,5 @@ for i in m_list:
         print('1')
     else:
         print('0')
+
+#20200606
