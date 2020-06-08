@@ -1,7 +1,8 @@
 import sys
 
 a,b = map(int,input().split())
-# a를 세로, b를 가로로 받음
+chess = []
 for i in range(a):
-    for j in range(b):
-        print(1)
+    tmp = [sys.stdin.readlines() for x in range(b)]
+    chess.append(tmp)
+print(chess)
