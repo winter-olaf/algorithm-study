@@ -86,12 +86,12 @@
 - [Programmers]폰켓몬
 #### 못 푼 문제
 - [Programmers][2020 KAKAO BLIND]문자열 압축
+- [Programmers]네트워크
 
 #### 2020.05.30 - 첫 오프라인 세션. 백준 시작! 😏
 최준원 Naver Campus Hackday 참여로 20일 삭제
-###### 최준원 못 푼 문제
-- [Programmers][2020 KAKAO BLIND]문자열 압축
-- [Programmers]네트워크
+
+
 
 ###### 만나서 푼 문제
 - [2751]수 정렬하기2
