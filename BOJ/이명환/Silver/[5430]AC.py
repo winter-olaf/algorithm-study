@@ -95,8 +95,9 @@ for i in range(testcase):
             arr_deque.reverse()
             arr_deque = list(arr_deque)
             arr_deque = ",".join([str(_) for _ in arr_deque])
-            print([arr_deque])
+            print('[',arr_deque,']',sep='')
         else:
             arr_deque = list(arr_deque)
             arr_deque = ",".join([str(_) for _ in arr_deque])
-            print([arr_deque])
+            print('[',arr_deque,']',sep='')
+#출력에서도 헤맸다.. 그냥 출력하면 [1, 2, 3,...] 이렇게 중간중간 공백이 들어가서 틀렸다고 뜬 것이였다.
