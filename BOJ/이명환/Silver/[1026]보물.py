@@ -29,4 +29,4 @@ for a,b in zip(arr_A,arr_B):
     min += a*b
 print(min)
 
-#음.. 찜찜하다
+#음.. 찜찜하다 A배열만 바꿔서 못푸나.?
