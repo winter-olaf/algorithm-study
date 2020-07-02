@@ -9,30 +9,46 @@ def check(board,r,c):
             impossible_num.append(i)
     for i in range(9):
         k = board[i][c]
-        if k in [1,2,3,4,5,6,7,8,10]:
+        if k in [1,2,3,4,5,6,7,8,9,10]:
             impossible_num.append(k)
+    r_s = (r // 3) * 3
+    c_s = (c // 3) * 3
+    for x in range(r_s, r_s+3):
+        for y in range(c_s, c_s+3):
+            if board[x][y] in [1,2,3,4,5,6,7,8,9,10]:
+                impossible_num.append(board[x][y])
+    if set(impossible_num) == [1,2,3,4,5,6,7,8]:
+        return False
     possible_num = set(possible_num) -set(impossible_num)
     return possible_num
 
 def fill_num(board,r,c):
     if c == 9:
-        r +=1
+        r += 1
         c = 0
     if r == 9:
-        print(board)
+        for x in range(9):
+            for y in range(9):
+                print(board[x][y], end=((" ", "\n")[y == 8]))
         sys.exit()
-    if board[r][c] == 0:
-        possible_num = check(board, r, c)
-        if possible_num == set():
-            return False
-        for i in possible_num:
-            board[r][c] = i
-            fill_num(board, r, c+1)
-    else:
+    while(board[r][c]!= 0):
         c += 1
         if c == 9:
             r += 1
             c = 0
-        fill_num(board, r, c)
+        if r == 9:
+            for x in range(9):
+                for y in range(9):
+                    print(board[x][y], end=((" ", "\n")[y == 8]))
+            sys.exit()
+    possible_num = check(board, r, c)
+    if possible_num == False:
+        return
+    for i in possible_num:
+        board[r][c] = i
+        if (fill_num(board, r, c+1)):
+            pass
+        else:
+            board[r][c] = 0
 fill_num(board,0,0)
-##츌력이 문제네 ㄹㅇㅋㅋ
+#pypy제출... 그냥 파이썬은 시간초과뜸. .
