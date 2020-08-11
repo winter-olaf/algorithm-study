@@ -38,14 +38,13 @@ public class Main {
 		
 	}
 //	static StringBuilder dfs(int length, int con, int vow, int current, String pwd) {
-	static void dfs(int length, int con, int vow, int current, StringBuilder sb) {
+	static void dfs(int length, int con, int vow, int current, String pwd) {
 //		1.체크인 - 생략 가능
 //		2.목적지인가?
-		sb = new StringBuilder();
 		if (length==L) {
 			if (con >= 2 && vow >= 1) {
 				// 답 발견. 출력 or 저장
-				System.out.println(sb.toString());
+				System.out.println(pwd);
 			}
 		} else {
 //		3.갈 수 있는 곳을 순회	
@@ -53,9 +52,9 @@ public class Main {
 //			4.갈 수 있는가? - 생략 가능
 //			5.간다. dfs(next)
 			if (data[i] == 'a' || data[i] == 'e' || data[i] == 'i' || data[i] == 'o' || data[i] == 'u') {
-				dfs(length + 1, con, vow + 1, i, sb.append(data[i]));
+				dfs(length + 1, con, vow + 1, i, pwd + data[i]);
 			} else {
-				dfs(length + 1, con + 1, vow, i, sb.append(data[i]));
+				dfs(length + 1, con + 1, vow, i, pwd + data[i]);
 			}
 		}
 //		6.체크아웃 - 생략 가능
