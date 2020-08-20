@@ -48,12 +48,13 @@ public class Main {
 		studiedCount = 5;
 		// 결과
 		result = studyWords();
-		
+		System.out.println("study1" + studyWords());
 		for (int i=0; i<26; i++) {
 			if (studied[i] == false) {
 				dfs(i);
 			}
 		}
+		System.out.println(result);
 	}
 	
 	static void dfs(int index) {
@@ -61,7 +62,9 @@ public class Main {
 		studiedCount++;
 		
 		if (studiedCount == K) { // 공부 끝!
+			// result 로그를 찍어본 곳을 보면 알겠지만, dfs를 실행하기 전에 결과값이 
 			result = Math.max(studyWords(), result);
+			System.out.println("study 2 : " + studyWords());
 		} else {
 			for (int i=index+1; i<26; i++) {
 				if (studied[i] == false) {
@@ -69,7 +72,27 @@ public class Main {
 				}
 			}
 		}
-		
+		studied[index] = false;
+		studiedCount--;
+	}
+	
+	static int studyWords() {
+		int count = 0;
+		for (int i=0; i<N; i++) {
+			boolean isIn = true;
+			String word = words[i];
+			for (int j=0; j<word.length(); j++) {
+				// 단어 중, 한 글자라도 배운적이 없으면 그 단어는 꽝
+				if (studied[word.charAt(j) - 'a'] == false) {
+					isIn = false;
+					break;
+				}
+			}
+			if (isIn == true) {
+				count++;
+			}
+		}
+		return count;
 	}
 
 }
