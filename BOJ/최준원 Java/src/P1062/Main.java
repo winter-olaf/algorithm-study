@@ -10,6 +10,7 @@ public class Main {
 	static boolean[] studied;
 	static int studiedCount = 0;
 	static int result = 0;
+	static int test = 0;
 	
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
@@ -22,17 +23,18 @@ public class Main {
 //		System.out.println(N + ", " + K);
 		
 		words = new String[N];
+		
+		for (int i=0; i<N; i++) {
+			// antic은 생각할 필요가 없으므로 삭제
+			words[i] = sc.next().replaceAll("[antic]", "");
+		}
+		
 		studied = new boolean[26]; // 알파벳 전체에 해당하는 배열 생성
 		studied['a' - 'a'] = true; // antic 은 배웠으므로 true로 체크
 		studied['n' - 'a'] = true;
 		studied['t' - 'a'] = true;
 		studied['i' - 'a'] = true;
 		studied['c' - 'a'] = true;
-		
-		for (int i=0; i<N; i++) {
-			// antic은 생각할 필요가 없으므로 삭제
-			words[i] = sc.next().replaceAll("[antic]", "");
-		}
 		
 		// 배울 수 있는 글자가 5보다 작다면 당연히 결과는 0
 		if (K<5) {
@@ -48,7 +50,6 @@ public class Main {
 		studiedCount = 5;
 		// 결과
 		result = studyWords();
-		System.out.println("study1" + studyWords());
 		for (int i=0; i<26; i++) {
 			if (studied[i] == false) {
 				dfs(i);
@@ -58,13 +59,10 @@ public class Main {
 	}
 	
 	static void dfs(int index) {
-		studied[index] = true; // 공부 했으므로 true로 변경
+		studied[index] = true; // 아직 공부하지 않은 글자에 한해서 dfs를 돌린다.
 		studiedCount++;
-		
 		if (studiedCount == K) { // 공부 끝!
-			// result 로그를 찍어본 곳을 보면 알겠지만, dfs를 실행하기 전에 결과값이 
 			result = Math.max(studyWords(), result);
-			System.out.println("study 2 : " + studyWords());
 		} else {
 			for (int i=index+1; i<26; i++) {
 				if (studied[i] == false) {
@@ -72,8 +70,9 @@ public class Main {
 				}
 			}
 		}
-		studied[index] = false;
+		studied[index] = false; 
 		studiedCount--;
+		System.out.println(index);
 	}
 	
 	static int studyWords() {

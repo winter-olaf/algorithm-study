@@ -1,6 +1,2 @@
-5 6
-antic
-anticantic
+1 7
 antarctica
-antahellotica
-antacartica
