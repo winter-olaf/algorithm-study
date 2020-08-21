@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main {
+public class Solution {
 
     static int N, K;
     static String[] words;
