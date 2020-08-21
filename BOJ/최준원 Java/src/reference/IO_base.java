@@ -24,7 +24,5 @@ public class IO_base {
         bw.flush(); // flush!
         bw.close();
         br.close();
-
     }
-
 }
