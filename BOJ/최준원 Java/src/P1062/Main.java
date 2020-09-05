@@ -48,8 +48,9 @@ public class Main {
 		
 		// 학습한 문자에 기본적으로 antic 5글자는 들어가 있음
 		studiedCount = 5;
-		// 결과
+		// 일차적으로 결과를 뽑는다. 
 		result = studyWords();
+		// #단어 탐색 1
 		for (int i=0; i<26; i++) {
 			if (studied[i] == false) {
 				dfs(i);
@@ -64,6 +65,7 @@ public class Main {
 		if (studiedCount == K) { // 공부 끝!
 			result = Math.max(studyWords(), result);
 		} else {
+			// #단어 탐색 2
 			for (int i=index+1; i<26; i++) {
 				if (studied[i] == false) {
 					dfs(i);
@@ -72,7 +74,7 @@ public class Main {
 		}
 		studied[index] = false; 
 		studiedCount--;
-		System.out.println(index);
+		
 	}
 	
 	static int studyWords() {
