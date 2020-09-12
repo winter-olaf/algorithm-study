@@ -5,7 +5,7 @@ def solution(numbers):
     for (a,b) in combi:
         if (a+b) not in result:
             result.append(a+b)
-    print(sorted(result))
+    return sorted(result)
 
 
 solution([2,1,3,4,1])
