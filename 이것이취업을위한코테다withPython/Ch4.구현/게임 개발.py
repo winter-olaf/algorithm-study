@@ -1,4 +1,4 @@
-# 게임 개발
+# 4-4
 n, m = map(int,input().split())
 x, y, direction = map(int, input().split())
 

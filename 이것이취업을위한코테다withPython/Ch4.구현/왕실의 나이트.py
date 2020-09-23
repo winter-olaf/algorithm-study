@@ -1,4 +1,4 @@
-# 왕실의 나이트
+# 4-3
 position = input()
 row = int(position[1])
 column = ord(position[0]) - ord('a')
