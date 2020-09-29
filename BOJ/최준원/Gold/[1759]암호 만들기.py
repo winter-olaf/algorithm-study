@@ -10,7 +10,7 @@ def dfs(depth, index, l, c):
         return
     for i in range(index, c):
         password.append(pw[i])
-        dfs(depth+1, index+1, l, c)
+        dfs(depth+1, i+1, l, c)
         password.pop()
 
 def solution(arr):
