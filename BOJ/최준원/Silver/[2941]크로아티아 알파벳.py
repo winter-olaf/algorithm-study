@@ -22,18 +22,7 @@ res+=(words_length-count)
 print(res)
 '''
 words = input()
-count, words_length = 0, len(words)
-croatia = ['c=','c-','d-','lj','nj','s=','z=']
-result = [0]*7
-
-# 크로아티아 알파벳 계산
-for i,v in enumerate(croatia):
-    if v in words:
-        result[i]+=words.count(v)
-if 'dz=' in words:
-    count+=words.count('dz=')
-
-val1 = (sum(result) - (result[-1]-count))
-val2 = words_length - (2*val1 + 3*count)
-
-print(val1+val2+count)
+croatia = ['c=','c-','dz=','d-','lj','nj','s=','z=']
+for i in croatia:
+    words = words.replace(i,'!')
+print(len(words))
