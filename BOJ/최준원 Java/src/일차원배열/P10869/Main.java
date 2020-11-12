@@ -1,4 +1,4 @@
-package P10869;
+package 일차원배열.P10869;
 
 import java.util.Scanner;
 

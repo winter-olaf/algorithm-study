@@ -1,4 +1,4 @@
-package P1000;
+package 입출력과사칙연산.P1000;
 
 import java.util.Scanner;
 
