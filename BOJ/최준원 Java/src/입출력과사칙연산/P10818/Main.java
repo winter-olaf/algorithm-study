@@ -1,9 +1,8 @@
-package P10818;
+package 입출력과사칙연산.P10818;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 import java.util.StringTokenizer;
 
 public class Main {

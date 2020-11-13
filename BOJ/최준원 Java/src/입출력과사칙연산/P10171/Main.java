@@ -1,4 +1,4 @@
-package P10171;
+package 입출력과사칙연산.P10171;
 
 public class Main {
     public static void main(String[] args) {
