@@ -55,7 +55,7 @@ for _ in range(n):
     house.append(int(sys.stdin.readline()))
 house.sort()
 
-min_gap = house[1] - house[0]
+min_gap = 1
 max_gap = house[-1] - house[0]
 result = 0
 
@@ -72,6 +72,7 @@ while (min_gap <= max_gap):
         result = gap
     else:
         max_gap = gap - 1
+
 
 print(result)
 
