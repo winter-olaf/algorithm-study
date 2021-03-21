@@ -32,4 +32,4 @@ for i in range(len(arr)):
     if arr[i] != 0:
         for j in range(arr[i]):
             print(i+1)
-        
+

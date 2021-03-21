@@ -215,3 +215,4 @@ hs_err_pid*
 .vscode/
 *.project
 SDS_Summer/.project
+venv
