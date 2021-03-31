@@ -46,5 +46,6 @@ out = 0
 # 3
 while out < N:
     # 한명 나갔으면 그 다음 내보낼 때는 한명이 줄어듬
-    # 즉, 나갈 순서를 체크하는 tmp는 cnt를 N-out으로 나눈 나머지 + out 이어야 함
+    # 즉, 나갈 순서를 체크하는 tmp는 cnt를 N-out+1로 나눈 나머지
     # tmp가 M과 같아진다면 break
+    pass
