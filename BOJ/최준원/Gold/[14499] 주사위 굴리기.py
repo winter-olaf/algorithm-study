@@ -56,6 +56,5 @@ def spin(direction):
                 data[x][y] = dice[5]
             print(dice[2])
 
-
 for move in moves:
     spin(move)
