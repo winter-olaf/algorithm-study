@@ -14,18 +14,20 @@ def solution(str1, str2):
             list2.append(str2[i:i+2])
 
     inter = 0
-    for c in list1:
-        if c in list2:
+
+    set1 = set(list1)
+    set2 = set(list2)
+
+    for c in set1:
+        if c in set2:
             inter += min(list1.count(c), list2.count(c))
 
     union = len(list1) + len(list2) - inter
 
-    print(union, inter)
-
-    answer = 65536 if union == 0 or inter == 0 else int((inter/union)*65536)
+    answer = 65536 if union == 0 and inter == 0 else int((inter/union)*65536)
     return answer
 
-# print(solution('FRANCE', 'french'))
+print(solution('FRANCE', 'french'))
 # print(solution('E=M*C^2', 'e=m*c^2'))
 print(solution('aa1+aa2', 'AAAA12'))
 # print(solution("AAbbaa_AA", 'BBB'))
